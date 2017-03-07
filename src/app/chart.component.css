@@ -15,8 +15,25 @@
     /*display: none;*/
 }
 
+.dot text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 10px;
+}
+
+.axis--y line {
+  stroke: green;
+  stroke-width: 1px;
+}
 .line {
     fill: none;
     stroke: steelblue;
     stroke-width: 1.5px;
+}
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  font: 12px sans-serif;
+  pointer-events: none;
+  font-weight: 900;
 }
